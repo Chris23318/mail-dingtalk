@@ -28,5 +28,5 @@ jobs:
           IMAP_HOST:        imap.exmail.qq.com
           IMAP_PORT:        "993"
           ENABLE_TRANSLATE: "true"
-          MAX_BODY_LENGTH:  "800"
+          MAX_BODY_LENGTH:  "5000"
         run: python mail_to_dingtalk.py
