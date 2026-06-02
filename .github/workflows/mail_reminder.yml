@@ -27,6 +27,6 @@ jobs:
           BAIDU_KEY:        ${{ secrets.BAIDU_KEY }}
           IMAP_HOST:        imap.exmail.qq.com
           IMAP_PORT:        "993"
-          ENABLE_TRANSLATE: "true"
+          ENABLE_TRANSLATE: "false"
           MAX_BODY_LENGTH:  "5000"
         run: python mail_to_dingtalk.py
